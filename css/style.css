@@ -1656,3 +1656,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         color: #ffffff; }
   .site-footer .copyright {
     color: rgba(255, 255, 255, 0.5); }
+
+    .whatsapp-button {
+      position: fixed;
+      /* top: 110px; */
+      bottom: 50px;
+      right: 20px;
+      z-index: 9999;
+      color: #25D366;
+      padding: 10px;
+      border-radius: 50%;
+      font-size: 40px;
+      cursor: pointer;
+      transition: .5s;
+    }
